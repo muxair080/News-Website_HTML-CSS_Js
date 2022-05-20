@@ -1,0 +1,54 @@
+
+.navbar{
+    padding-right: 40px;
+    background-color: black;
+    color: white;
+}
+.pages{
+    display: flex;
+    position: relative;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+ #container{
+    /* padding: 20px 50px; */
+    margin: 20px 150px;
+
+} 
+.btn{
+    background-color: rgb(216, 211, 211);
+    color:black;
+}
+.btn:hover{
+    font-weight: bolder;
+}
+.btn::after{
+    /* content: "\25be"; */
+    /* content: "U+25B2"; */
+    content: "\25BC";
+
+    float: right;
+    transform: scale(1.5);   
+}
+/* .btn:active{
+    content: "\24be";
+    float: right;
+    transform: scale(1.5); 
+} */
+.content {
+    display: none;
+}
+footer {
+    display:  grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    color: white;
+    padding: 0px 130px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+}
